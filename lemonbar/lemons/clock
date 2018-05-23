@@ -1,0 +1,15 @@
+# get time
+#
+# lemonbar script
+
+clk ()
+{
+    while :; do
+        var=$(date +%a\ %l:%M\ %P)
+        echo "C$a$t $var"
+
+        sleep 10s
+    done
+}
+
+# vim: ft=sh
