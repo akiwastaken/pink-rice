@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 xrdb -merge $HOME/.Xresources
-xset +fp /home/akari/.fonts
+xset +fp $HOME/.fonts
 xset fp rehash
 ~/lemonbar/bar &
 pgrep redshift &> /dev/null || redshift &> /dev/null &
