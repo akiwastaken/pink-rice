@@ -1,1 +1,1 @@
-for x in $(cat packages); do pacman -S $x; done
+for x in $(cat packages); do yay -S $x; done
